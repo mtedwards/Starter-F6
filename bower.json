@@ -4,6 +4,7 @@
   "dependencies": {
     "fitvids": ">=1.1.0",
     "REM-unit-polyfill": ">=1.1.0",
-    "font-awesome": "~4.3.0"
+    "font-awesome": "~4.3.0",
+    "modernizr": "~2.8.0"
   }
 }
