@@ -1,0 +1,23 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// Foundation Components
+@import '../bower_components/foundation/scss/foundation';
+
+@import 'settings';
+
+@include foundation-everything;
+@include foundation-flex-grid;
+  
+  @import
+  //"fancybox",
+  //"rslides",
+  "wordpress",
+  "defaults",
+  "flat-menu",
+  "header",
+  "footer",
+  "frontpage";
+
+
+//  @import  "oldie";

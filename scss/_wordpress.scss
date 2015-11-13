@@ -1,0 +1,63 @@
+// FIX the wpadminbar issue
+
+@media screen and (max-width:600px){
+  #wpadminbar {
+    top:-46px;
+  }
+}
+
+
+/* Start to customize Starter */
+
+/* Starndard WordPress Image alignment */
+
+.aligncenter, .alignright, .alignleft {
+  display:block;
+  margin: 1em auto;
+}
+
+@include breakpoint(medium) {
+
+  .alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+  }
+  
+  .alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+}
+
+
+
+ .skip-link {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+
+  &:focus { 
+        position:static; 
+        width:auto; 
+        height:auto; 
+    }
+  }
+
+
+// add some margin for images in post
+.container img {
+	margin-bottom: $paragraph-margin-bottom;
+}
+
+// adjust search button on top-bar
+input.prefix.button {
+	line-height: 1;
+}
+
+.orbit-slide-number {
+	display: none;
+}
+

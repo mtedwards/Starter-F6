@@ -1,0 +1,11 @@
+ul.flat-menu {
+    margin: none;
+    list-style: none;
+    text-align: center;
+    li {
+      display: inline-block;
+      a {
+        padding: 2em 0.5em;
+      }
+    }
+  }

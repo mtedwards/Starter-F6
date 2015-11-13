@@ -1,0 +1,19 @@
+.site {
+  @include flex-grid-row();
+  .site-header, .site-content, .site-footer {
+    @include flex-grid-column(12);
+  }
+}
+
+
+/* Typograhy */
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	text-transform: uppercase;	
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: $header-font-family;
+	font-weight: $header-font-weight;
+	
+}

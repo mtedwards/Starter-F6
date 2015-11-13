@@ -1,0 +1,9 @@
+{
+  "name": "starter-theme",
+  "version": "1.0.0",
+  "dependencies": {
+    "fitvids": ">=1.1.0",
+    "REM-unit-polyfill": ">=1.1.0",
+    "font-awesome": "~4.3.0"
+  }
+}

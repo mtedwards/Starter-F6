@@ -1,0 +1,37 @@
+  .gform_wrapper .ginput_complex label, .gform_wrapper .gfield_time_hour label, .gform_wrapper .gfield_time_minute label, .gform_wrapper .gfield_date_month label, .gform_wrapper .gfield_date_day label, .gform_wrapper .gfield_date_year label, .gform_wrapper .instruction {
+    cursor: $form-label-pointer;
+    font-size:   $form-label-font-size;
+    font-weight: $form-label-font-weight;
+    line-height: $form-label-line-height;
+    color: $form-label-font-color;
+    text-transform: $form-label-small-transform;
+    margin-bottom: $form-label-bottom-margin;
+  }
+  
+  
+  .gform_wrapper input[type=text], .gform_wrapper input[type=url], .gform_wrapper input[type=email], .gform_wrapper input[type=tel], .gform_wrapper input[type=number], .gform_wrapper input[type=password], .gform_wrapper select, .gform_wrapper.gf_browser_chrome .ginput_complex select, .gform_wrapper.gf_browser_chrome .ginput_complex .ginput_right select {
+    outline-style: none;
+    font-size: $input-font-size;
+    font-family: inherit;
+    padding: 5px;
+    letter-spacing: normal;
+    border-radius: $input-border-radius;
+    box-shadow: $input-box-shadow;
+    font-weight: inherit;
+    font-family: $input-font-family;
+    color: $input-font-color;
+    background: $input-bg-color;
+    border-color: $input-border-color;
+    border-width: $input-border-width;
+    border-style: $input-border-style;
+    
+    &:focus {
+      background-color: $input-focus-bg-color;
+      border-color: $input-focus-border-color;
+    }
+  }
+  
+  .gform_wrapper select, .gform_wrapper.gf_browser_chrome .ginput_complex select, .gform_wrapper.gf_browser_chrome .ginput_complex .ginput_right select {
+    padding: 5px;
+    font-size:  $input-font-size;
+  }
