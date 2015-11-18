@@ -30,7 +30,7 @@ function starter_startup() {
     add_filter('get_image_tag_class', 'starter_image_tag_class', 0, 4);
     add_filter('get_image_tag', 'starter_image_editor', 0, 4);
 
-} /* end reverie_startup */
+} /* end startup */
 
 
 /**********************
@@ -185,13 +185,13 @@ Post related cleaning
 	/* Return the formatted, clean caption. */
 	return $output;
 	
-} /* end reverie_cleaner_caption */
+} /* end cleaner_caption */
 
 // Clean the output of attributes of images in editor. Courtesy of SitePoint. http://www.sitepoint.com/wordpress-change-img-tag-html/
 function starter_image_tag_class($class, $id, $align, $size) {
 	$align = 'align' . esc_attr($align);
 	return $align;
-} /* end reverie_image_tag_class */
+} /* end image_tag_class */
 
 // Remove width and height in editor, for a better responsive world.
 function starter_image_editor($html, $id, $alt, $title) {
@@ -207,7 +207,7 @@ function starter_image_editor($html, $id, $alt, $title) {
 			'alt="' . $title . '"'
 		),
 		$html);
-} /* end reverie_image_editor */
+} /* end image_editor */
 
 /**
  * Filter Yoast SEO Metabox Priority

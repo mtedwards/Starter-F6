@@ -22,6 +22,6 @@ In terminal Run `grunt`
 
 You can start editing the theme.
 
-In terminal Run `grunt watch` to have grunt watch you Javascript, Sass and html changes.
+In terminal Run `grunt watch` to have grunt watch you Javascript, Sass and html changes. 
 
 Edit and play with foundation 6
