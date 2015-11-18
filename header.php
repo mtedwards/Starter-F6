@@ -24,10 +24,7 @@
 	<header id="masthead" class="site-header row" role="banner">
 		<div class="site-branding">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-		</div><!-- .site-branding -->
-
-		
-		
+		</div><!-- .site-branding -->		
 		<?php
   		//Flat Menu
   		get_template_part( 'partials/flat', 'menu' ); 

@@ -1,11 +1,21 @@
-ul.flat-menu {
-    margin: none;
-    list-style: none;
-    text-align: center;
-    li {
-      display: inline-block;
-      a {
-        padding: 2em 0.5em;
-      }
-    }
+.main-navigation {
+  @include menu-direction(vertical);
+  display: none; 
+  
+  &.expand {
+    display: block;
   }
+  
+  
+  @include breakpoint(medium) { 
+    display: block;
+    width: auto;
+    @include menu-direction(horizontal);
+  }
+}
+
+#menuToggle {
+  @include breakpoint(medium) {
+    display: none;
+  }
+}
