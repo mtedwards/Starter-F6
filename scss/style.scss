@@ -2,12 +2,11 @@
 @charset "UTF-8";
 
 // Foundation Components
-@import '../bower_components/foundation/scss/foundation';
+@import '../bower_components/foundation-sites/scss/foundation';
 
 @import 'settings';
 
 @include foundation-everything;
-@include foundation-flex-grid;
   
   @import
   //"fancybox",
