@@ -16,12 +16,12 @@ In terminal run `npm install`
 
 In terminal run `bower install`
 
-Move the Foundation folder to the bower_components folder (This step will be removed as soon as Foundation For Sites is available on Bower).
-
 In terminal Run `grunt`
 
 You can start editing the theme.
 
-In terminal Run `grunt watch` to have grunt watch you Javascript, Sass and html changes. 
+In terminal Run `grunt watch` to have grunt watch your Javascript, Sass and html changes. 
+
+You can install a plugin like *Live Reload* to have the browser reload automatically on file changes, triggered by the watch task.
 
 Edit and play with foundation 6
