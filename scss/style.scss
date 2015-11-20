@@ -3,12 +3,13 @@
 
 // Foundation Components
 @import '../bower_components/foundation-sites/scss/foundation';
-
+@import '../bower_components/motion-ui/src/motion-ui';
 @import 'settings';
 
 @include foundation-everything;
-  
-  @import
+@include motion-ui-transitions;
+
+@import
   //"fancybox",
   //"rslides",
   "wordpress",

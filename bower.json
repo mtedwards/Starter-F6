@@ -2,10 +2,11 @@
   "name": "starter-theme",
   "version": "1.0.0",
   "dependencies": {
-    "foundation-sites":">=6.0.0",
+    "foundation-sites": ">=6.0.0",
     "fitvids": ">=1.1.0",
     "REM-unit-polyfill": ">=1.1.0",
     "font-awesome": "~4.3.0",
-    "modernizr": "~2.8.0"
+    "modernizr": "~2.8.0",
+    "motion-ui": "~1.1.0"
   }
 }
