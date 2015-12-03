@@ -7,6 +7,21 @@
 
 
 /* Typograhy */
+.h1 { font-size: map-get(map-get($header-sizes, small), h1) * 1px;}
+.h2 { font-size: map-get(map-get($header-sizes, small), h2) * 1px;}
+.h3 { font-size: map-get(map-get($header-sizes, small), h3) * 1px;}
+.h4 { font-size: map-get(map-get($header-sizes, small), h4) * 1px;}
+.h5 { font-size: map-get(map-get($header-sizes, small), h5) * 1px;}
+.h6 { font-size: map-get(map-get($header-sizes, small), h6) * 1px;}
+
+@include breakpoint(medium) {
+  .h1 { font-size: map-get(map-get($header-sizes, medium), h1) * 1px;}
+  .h2 { font-size: map-get(map-get($header-sizes, medium), h2) * 1px;}
+  .h3 { font-size: map-get(map-get($header-sizes, medium), h3) * 1px;}
+  .h4 { font-size: map-get(map-get($header-sizes, medium), h4) * 1px;}
+  .h5 { font-size: map-get(map-get($header-sizes, medium), h5) * 1px;}
+  .h6 { font-size: map-get(map-get($header-sizes, medium), h6) * 1px;}
+}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	text-transform: uppercase;	
