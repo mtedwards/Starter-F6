@@ -1,8 +1,8 @@
 {
   "name": "starter-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
-    "foundation-sites": ">=6.0.0",
+    "foundation-sites": ">=6.1.1",
     "fitvids": ">=1.1.0",
     "REM-unit-polyfill": ">=1.1.0",
     "font-awesome": "~4.3.0",
