@@ -35,7 +35,7 @@ module.exports = {
 
 		'bower_components/foundation-sites/js/motion-ui.js',
 		//'bower_components/foundation-sites/js/util-map.json',
-		
+		'bower_components/flexibility/dist/flexibility.js',
 		//'js/navigation.js',
 		//'skip-link-focus-fix.js',
 		'bower_components/fitvids/jquery.fitvids.js',
