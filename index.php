@@ -13,17 +13,17 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 		<?php if ( have_posts() ) { ?>
-      
+
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) { the_post(); ?>
 
 				<?php
 					the_content();
-				?> 
-        
+				?>
+
 			<?php } // endwhile; ?>
 
 			<?php the_posts_navigation(); ?>
@@ -31,11 +31,12 @@ get_header(); ?>
 		<?php } else { ?>
 
       			<p>Oops. There is nothing here.</p>
-      
+
 		<?php } //endif; ?>
 
 		</main><!-- #main -->
-	</div><!-- #primary -->
+		<?php // get_sidebar(); ?>
+	</section><!-- #primary -->
 
-<?php // get_sidebar(); ?>
+
 <?php get_footer(); ?>

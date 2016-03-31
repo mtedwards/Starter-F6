@@ -1,10 +1,4 @@
-// FIX the wpadminbar issue
 
-@media screen and (max-width:600px){
-  #wpadminbar {
-    top:-46px;
-  }
-}
 
 
 /* Start to customize Starter */
@@ -22,7 +16,7 @@
     float: right;
     margin: 0 0 1em 1em;
   }
-  
+
   .alignleft {
     float: left;
     margin: 0 1em 1em 0;
@@ -39,10 +33,10 @@
   height:1px;
   overflow:hidden;
 
-  &:focus { 
-        position:static; 
-        width:auto; 
-        height:auto; 
+  &:focus {
+        position:static;
+        width:auto;
+        height:auto;
     }
   }
 
@@ -60,4 +54,3 @@ input.prefix.button {
 .orbit-slide-number {
 	display: none;
 }
-
