@@ -34,6 +34,6 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   // Default Task is basically a rebuild
-  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'notify']);
+  grunt.registerTask('default', ['concat', 'babel', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'notify']);
   grunt.registerTask('images', ['newer:imagemin']);
 };
