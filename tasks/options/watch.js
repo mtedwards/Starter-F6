@@ -4,7 +4,7 @@ module.exports = {
   },
   scripts: {
     files: ['js/**/*.js','tasks/options/*.js'],
-    tasks: ['concat', 'uglify'],
+    tasks: ['concat', 'babe', 'uglify'],
     options: {
       spawn: false,
     }
