@@ -2,7 +2,7 @@ module.exports = {
     dist: {
       options: {
             sourceMap: true,
-            presets: ['es2015']
+            presets: ['latest']
         },
       files: {
         'build/production.js': 'build/production.js'
